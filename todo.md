@@ -1,0 +1,27 @@
+# TODO - Copa 2026 Figurinhas App
+
+- [x] Gerar logo do app e configurar branding (icon.png, splash, favicon)
+- [x] Atualizar app.config.ts com nome e logo do app
+- [x] Configurar tema de cores (verde/amarelo/azul Copa 2026) no theme.config.js
+- [x] Instalar dependências: expo-sqlite, expo-camera, expo-document-picker, expo-sharing, expo-clipboard
+- [x] Criar banco de dados SQLite com tabelas: user_collection, trades_history
+- [x] Popular banco de dados com as 980 figurinhas (seed data)
+- [x] Criar hook useCollection para gerenciamento do acervo
+- [x] Implementar tela Dashboard (Home) com progresso e estatísticas
+- [x] Implementar tela Meu Álbum com lista agrupada por seleção e grupo
+- [x] Implementar filtros no Álbum (Todas/Coladas/Faltantes/Repetidas)
+- [x] Implementar busca por código/país no Álbum
+- [x] Implementar tela de Adicionar Figurinhas (câmera, texto, arquivo)
+- [x] Integrar LLM integrado para OCR de fotos via tRPC
+- [x] Implementar parser de listas (Regex) para múltiplos formatos
+- [x] Implementar tela de Confirmação após OCR/parser
+- [x] Implementar tela de Comparação de Listas
+- [x] Implementar motor de comparação (algoritmo de match)
+- [x] Implementar tela de Relatórios (Faltantes e Repetidas)
+- [x] Implementar compartilhamento de relatórios
+- [x] Implementar tela de Histórico de Trocas
+- [x] Implementar registro de troca (debitar/creditar acervo)
+- [x] Configurar ícones da Tab Bar com emojis
+- [ ] Autenticação de usuário (login/cadastro) - opcional, dados ficam locais
+- [ ] Testes end-to-end dos fluxos principais
+- [ ] Checkpoint final e entrega ao usuário
